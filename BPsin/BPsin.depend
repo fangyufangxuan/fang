@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1380876919 source:f:\codeblock\bpsin\main.cpp
+	"stdio.h"
+	"windows.h"
+	"stdlib.h"
+	"math.h"
+

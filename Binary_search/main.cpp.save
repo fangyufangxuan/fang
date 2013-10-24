@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int binary_search(int items[], int n, int value)
+{
+    int first = 0;
+    int last = n -1;
+    
+    int middle = first + ((last - first)/2);
+    while ((value != items[middle]) && ())
+}
+
+int main()
+{
+    
+    
+    cout << "Hello world!" << endl;
+    return 0;
+}

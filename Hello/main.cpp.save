@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
+
+
+int main()
+{
+    int i = 0;
+    int j
+    cout << i << endl;
+    // char *str = new char [100];
+    string str = "asdfghjkl";
+    cout << str << endl;
+
+    cout << "Hello world!" << endl;
+
+    cin.get();
+
+
+    return 0;
+}

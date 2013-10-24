@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1382237880 source:f:\codeblock\prefixsorting\cprefixsorting.cpp
+	"PrefixSorting.h"
+
+1382237721 f:\codeblock\prefixsorting\prefixsorting.h
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
