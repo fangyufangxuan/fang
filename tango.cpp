@@ -116,27 +116,28 @@ int main(int argc, char * argv[])
 	cin >> flag;
 	if (flag == 1 || flag == 3)
 	{
-	int n;
-	cout << "Please input the number of ID : ";
+        int n;
+        cout << "Please input the number of ID : ";
+        cin >> n;
 
-	string ID[n];
-	cout << "Please input the IDs : [divide them in backspcae] " << endl;
-	for (int i = 0; i < n; i++)
-	{
-		cin >> ID[i];
-	}
+        string *ID = new string[n];
+        cout << "Please input the IDs : [divide them in backspcae] " << endl;
+        for (int i = 0; i < n; i++)
+        {
+            cin >> ID[i];
+        }
 
-	if (flag == 1)
-	{
-		string tango_id;
-		tango_id = find_tango_1(ID, n);
+        if (flag == 1)
+        {
+            string tango_id;
+            tango_id = find_tango_1(ID, n);
 
-		cout << "The only tango is : " << tango_id << endl;
-	}
-	else
-	{
-		find_tango_3(ID, n);
-	}
+            cout << "The only tango is : " << tango_id << endl;
+        }
+        else
+        {
+            find_tango_3(ID, n);
+        }
 	}
 	else
 	{
